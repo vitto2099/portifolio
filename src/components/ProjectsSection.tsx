@@ -1,0 +1,108 @@
+
+import React from 'react';
+import { Card, CardContent } from "@/components/ui/card";
+import { Github } from "lucide-react";
+
+const projects = [
+  {
+    name: "Netflix Clone",
+    description: "Recriação da interface da Netflix utilizando React, com sistema de catálogo de filmes e séries, reprodução de vídeos e sistema de recomendações.",
+    technologies: ["React", "Firebase", "CSS"],
+    image: "https://via.placeholder.com/600x400?text=Netflix+Clone",
+    github: "https://github.com/vitorkunicki/netflix-clone",
+    live: "#"
+  },
+  {
+    name: "Loja Virtual 16-Bits",
+    description: "E-commerce de produtos geek e retro, com sistema completo de carrinho, pagamentos, cadastro de usuários e painel administrativo.",
+    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+    image: "https://via.placeholder.com/600x400?text=Loja+Virtual+16-Bits",
+    github: "https://github.com/vitorkunicki/ecommerce-16bits",
+    live: "#"
+  },
+  {
+    name: "Gestão Municipal",
+    description: "Sistema para gestão de processos municipais, incluindo atendimento ao cidadão, protocolo eletrônico e dashboard de indicadores.",
+    technologies: ["Vue.js", "Laravel", "MySQL"],
+    image: "https://via.placeholder.com/600x400?text=Gestão+Municipal",
+    github: "https://github.com/vitorkunicki/gestao-municipal",
+    live: "#"
+  },
+  {
+    name: "App Clima Tempo",
+    description: "Aplicativo de previsão do tempo com geolocalização, histórico de consultas e alertas meteorológicos personalizados.",
+    technologies: ["Flutter", "Dart", "API OpenWeather"],
+    image: "https://via.placeholder.com/600x400?text=App+Clima+Tempo",
+    github: "https://github.com/vitorkunicki/clima-app",
+    live: "#"
+  },
+  {
+    name: "Task Manager",
+    description: "Sistema de gerenciamento de tarefas com categorias, prioridades, datas limite e notificações.",
+    technologies: ["React", "TypeScript", "Redux", "Firebase"],
+    image: "https://via.placeholder.com/600x400?text=Task+Manager",
+    github: "https://github.com/vitorkunicki/task-manager",
+    live: "#"
+  },
+  {
+    name: "Sistema de Gestão ERP",
+    description: "ERP modular para pequenas empresas com controle de estoque, vendas, financeiro e relatórios.",
+    technologies: ["Angular", "Spring Boot", "PostgreSQL"],
+    image: "https://via.placeholder.com/600x400?text=Sistema+ERP",
+    github: "https://github.com/vitorkunicki/erp-system",
+    live: "#"
+  }
+];
+
+const ProjectsSection = () => {
+  return (
+    <section id="projects" className="py-20">
+      <div className="container mx-auto px-4">
+        <h2 className="section-title text-center">Meus Projetos</h2>
+        
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+          {projects.map((project, index) => (
+            <div key={index} className="glass-card group h-full flex flex-col">
+              <div className="mb-4 overflow-hidden rounded-lg relative">
+                <img 
+                  src={project.image} 
+                  alt={project.name} 
+                  className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                  <div className="flex gap-3">
+                    {project.github && (
+                      <a href={project.github} target="_blank" rel="noreferrer" className="glass p-2 hover:bg-primary/20 transition-colors">
+                        <Github size={20} />
+                      </a>
+                    )}
+                    {project.live && (
+                      <a href={project.live} target="_blank" rel="noreferrer" className="glass p-2 hover:bg-primary/20 transition-colors">
+                        <span className="text-sm">Demo</span>
+                      </a>
+                    )}
+                  </div>
+                </div>
+              </div>
+              
+              <div className="flex-grow">
+                <h3 className="text-xl font-semibold mb-2">{project.name}</h3>
+                <p className="text-foreground/70 mb-4">{project.description}</p>
+              </div>
+              
+              <div className="flex flex-wrap gap-2 mt-auto pt-4">
+                {project.technologies.map((tech, i) => (
+                  <span key={i} className="bg-primary/10 text-primary px-3 py-1 rounded-full text-xs">
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ProjectsSection;
