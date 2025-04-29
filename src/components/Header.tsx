@@ -93,16 +93,16 @@ const Header: React.FC = () => {
           </NavigationMenu>
           
           <div className="hidden lg:flex items-center space-x-4 mt-4 md:mt-0">
-            <a href="tel:+5500000000000" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="tel:+5547999635698" className="text-muted-foreground hover:text-primary transition-colors">
               <Phone size={18} />
             </a>
-            <a href="mailto:vitor@example.com" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="mailto:vck987123@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
               <Mail size={18} />
             </a>
-            <a href="https://linkedin.com/in/vitorkunicki" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://www.linkedin.com/in/vitor-camargo-kunicki-6a426920b/" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Linkedin size={18} />
             </a>
-            <a href="https://github.com/vitorkunicki" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://github.com/vitto2099" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Github size={18} />
             </a>
           </div>

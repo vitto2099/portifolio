@@ -22,7 +22,7 @@ const HeroSection = () => {
             <div className="flex flex-wrap gap-3">
               <HoverCard>
                 <HoverCardTrigger asChild>
-                  <a href="tel:+5500000000000" className="glass flex items-center px-4 py-3 gap-2 hover:bg-primary/10 transition-all">
+                  <a href="tel:+5547999635698" className="glass flex items-center px-4 py-3 gap-2 hover:bg-primary/10 transition-all">
                     <Phone size={18} />
                     <span>(00) 00000-0000</span>
                   </a>
@@ -36,7 +36,7 @@ const HeroSection = () => {
               
               <HoverCard>
                 <HoverCardTrigger asChild>
-                  <a href="mailto:vitor@example.com" className="glass flex items-center px-4 py-3 gap-2 hover:bg-primary/10 transition-all">
+                  <a href="mailto:vck987123@gmail.com" className="glass flex items-center px-4 py-3 gap-2 hover:bg-primary/10 transition-all">
                     <Mail size={18} />
                     <span>vitor@example.com</span>
                   </a>
@@ -50,7 +50,7 @@ const HeroSection = () => {
               
               <HoverCard>
                 <HoverCardTrigger asChild>
-                  <a href="https://linkedin.com/in/vitorkunicki" target="_blank" rel="noreferrer" className="glass flex items-center px-4 py-3 gap-2 hover:bg-primary/10 transition-all">
+                  <a href="https://www.linkedin.com/in/vitor-camargo-kunicki-6a426920b/" target="_blank" rel="noreferrer" className="glass flex items-center px-4 py-3 gap-2 hover:bg-primary/10 transition-all">
                     <Linkedin size={18} />
                     <span>LinkedIn</span>
                   </a>
@@ -64,7 +64,7 @@ const HeroSection = () => {
               
               <HoverCard>
                 <HoverCardTrigger asChild>
-                  <a href="https://github.com/vitorkunicki" target="_blank" rel="noreferrer" className="glass flex items-center px-4 py-3 gap-2 hover:bg-primary/10 transition-all">
+                  <a href="https://github.com/vitto2099" target="_blank" rel="noreferrer" className="glass flex items-center px-4 py-3 gap-2 hover:bg-primary/10 transition-all">
                     <Github size={18} />
                     <span>GitHub</span>
                   </a>
@@ -83,12 +83,12 @@ const HeroSection = () => {
               <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl animate-pulse opacity-30"></div>
               <div className="glass p-1 rounded-full relative">
                 <img 
-                  src="/images/profile.jpg" 
+                  src="/images/eu.jpg" 
                   alt="Vitor Camargo Kunicki" 
                   className="w-80 h-80 object-cover rounded-full"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
-                    target.src = "https://via.placeholder.com/400x400?text=Vitor+Kunicki";
+                    target.src = "eu.jpg";
                   }}
                 />
               </div>

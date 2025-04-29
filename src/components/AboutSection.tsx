@@ -54,12 +54,12 @@ const AboutSection = () => {
                   <h3 className="section-subtitle text-primary mt-8">Certificações</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="glass p-4 rounded-lg">
-                      <h4 className="font-medium">Bootcamp Back-end</h4>
+                      <h4 className="font-medium">Bootcamp Back-end Santander </h4>
                       <p className="text-sm text-muted-foreground">Python e Java - DIO</p>
                     </div>
                     
                     <div className="glass p-4 rounded-lg">
-                      <h4 className="font-medium">Flutter - Imersão Mobile</h4>
+                      <h4 className="font-medium">Flutter - Imersão Mobile </h4>
                       <p className="text-sm text-muted-foreground">Alura</p>
                     </div>
                     
