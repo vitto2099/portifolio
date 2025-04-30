@@ -5,33 +5,33 @@ import { Github } from "lucide-react";
 
 const projects = [
   {
-    name: "Netflix Clone",
-    description: "Recriação da interface da Netflix utilizando React, com sistema de catálogo de filmes e séries, reprodução de vídeos e sistema de recomendações.",
-    technologies: ["React", "Firebase", "CSS"],
+    name: "Tetris Clone",
+    description: "Recriação do game Classico Tetris com foco em reproduzir algo parecido com o gameboy.",
+    technologies: ["Javascript", "CSS"],
     image: "https://via.placeholder.com/600x400?text=Netflix+Clone",
     github: "https://github.com/vitorkunicki/netflix-clone",
     live: "#"
   },
   {
     name: "Loja Virtual 16-Bits",
-    description: "E-commerce de produtos geek e retro, com sistema completo de carrinho, pagamentos, cadastro de usuários e painel administrativo.",
+    description: "E-commerce de Jogos geek e retro, com sistema completo de carrinho, pagamentos, ce painel de jogos favoritos.",
     technologies: ["React", "Node.js", "MongoDB", "Stripe"],
     image: "https://via.placeholder.com/600x400?text=Loja+Virtual+16-Bits",
     github: "https://github.com/vitorkunicki/ecommerce-16bits",
     live: "#"
   },
   {
-    name: "Gestão Municipal",
-    description: "Sistema para gestão de processos municipais, incluindo atendimento ao cidadão, protocolo eletrônico e dashboard de indicadores.",
-    technologies: ["Vue.js", "Laravel", "MySQL"],
+    name: "Calculadora Trabalhista",
+    description: "Aplicativo de Calculador de Rescição trabalhista feita para treinar typescript e React",
+    technologies: ["Vue.js", "React", "Typescript"],
     image: "https://via.placeholder.com/600x400?text=Gestão+Municipal",
     github: "https://github.com/vitorkunicki/gestao-municipal",
     live: "#"
   },
   {
-    name: "App Clima Tempo",
-    description: "Aplicativo de previsão do tempo com geolocalização, histórico de consultas e alertas meteorológicos personalizados.",
-    technologies: ["Flutter", "Dart", "API OpenWeather"],
+    name: "Jogo De Rpg por Texto",
+    description: "Um game de RPG de Texto feito com base em um trabalho de faculdade feito em Java. Refiz ele em Javascript para demonstrar a minha ideia ao meu grupo.",
+    technologies: ["HTML", "CSS", "JavaScript"],
     image: "https://via.placeholder.com/600x400?text=App+Clima+Tempo",
     github: "https://github.com/vitorkunicki/clima-app",
     live: "#"
@@ -76,12 +76,7 @@ const ProjectsSection = () => {
                         <Github size={20} />
                       </a>
                     )}
-                    {project.live && (
-                      <a href={project.live} target="_blank" rel="noreferrer" className="glass p-2 hover:bg-primary/20 transition-colors">
-                        <span className="text-sm">Demo</span>
-                      </a>
-                    )}
-                  </div>
+                                     </div>
                 </div>
               </div>
               

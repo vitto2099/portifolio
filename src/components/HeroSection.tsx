@@ -24,7 +24,7 @@ const HeroSection = () => {
                 <HoverCardTrigger asChild>
                   <a href="tel:+5547999635698" className="glass flex items-center px-4 py-3 gap-2 hover:bg-primary/10 transition-all">
                     <Phone size={18} />
-                    <span>(00) 00000-0000</span>
+                    <span>(47) 99963-5698</span>
                   </a>
                 </HoverCardTrigger>
                 <HoverCardContent className="w-auto">
@@ -38,7 +38,7 @@ const HeroSection = () => {
                 <HoverCardTrigger asChild>
                   <a href="mailto:vck987123@gmail.com" className="glass flex items-center px-4 py-3 gap-2 hover:bg-primary/10 transition-all">
                     <Mail size={18} />
-                    <span>vitor@example.com</span>
+                    <span>vck987123@gmail.com</span>
                   </a>
                 </HoverCardTrigger>
                 <HoverCardContent className="w-auto">
