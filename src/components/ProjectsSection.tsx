@@ -8,14 +8,14 @@ const projects = [
     name: "Tetris Clone",
     description: "Recriação do game Classico Tetris com foco em reproduzir algo parecido com o gameboy.",
     technologies: ["Javascript", "CSS"],
-    image: "https://via.placeholder.com/600x400?text=Netflix+Clone",
+    image: "tetrisClone.png",
     github: "https://github.com/vitorkunicki/netflix-clone",
     live: "#"
   },
   {
     name: "Loja Virtual 16-Bits",
     description: "E-commerce de Jogos geek e retro, com sistema completo de carrinho, pagamentos, ce painel de jogos favoritos.",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+    technologies: ["React", "Node.js", "JavaSript", "Css"],
     image: "https://via.placeholder.com/600x400?text=Loja+Virtual+16-Bits",
     github: "https://github.com/vitorkunicki/ecommerce-16bits",
     live: "#"
@@ -23,7 +23,7 @@ const projects = [
   {
     name: "Calculadora Trabalhista",
     description: "Aplicativo de Calculador de Rescição trabalhista feita para treinar typescript e React",
-    technologies: ["Vue.js", "React", "Typescript"],
+    technologies: ["Vue.js", "Css", "Typescript"],
     image: "https://via.placeholder.com/600x400?text=Gestão+Municipal",
     github: "https://github.com/vitorkunicki/gestao-municipal",
     live: "#"
@@ -37,17 +37,17 @@ const projects = [
     live: "#"
   },
   {
-    name: "Task Manager",
-    description: "Sistema de gerenciamento de tarefas com categorias, prioridades, datas limite e notificações.",
-    technologies: ["React", "TypeScript", "Redux", "Firebase"],
+    name: "Xadrez Online",
+    description: "Um Jogos de Xadrez Utilizando Javascript que fiz para treinar css e implementar site via Git-Hub pages.",
+    technologies: ["React", "Node.js", "JavaSript", "Css"],
     image: "https://via.placeholder.com/600x400?text=Task+Manager",
     github: "https://github.com/vitorkunicki/task-manager",
     live: "#"
   },
   {
-    name: "Sistema de Gestão ERP",
-    description: "ERP modular para pequenas empresas com controle de estoque, vendas, financeiro e relatórios.",
-    technologies: ["Angular", "Spring Boot", "PostgreSQL"],
+    name: "To do List Git",
+    description: "Meu primeiro projeto de javascript em que fiz uma todo list com visual baseado no proprio Git Hub.",
+    technologies: ["React", "Node.js", "JavaSript", "Css"],
     image: "https://via.placeholder.com/600x400?text=Sistema+ERP",
     github: "https://github.com/vitorkunicki/erp-system",
     live: "#"
