@@ -34,23 +34,23 @@ const Footer: React.FC = () => {
                 <li>
                   <a href="tel:+5500000000000" className="text-muted-foreground hover:text-primary transition-colors flex items-center">
                     <Phone size={16} className="mr-2" />
-                    (00) 00000-0000
+                    (47) 99963-5698
                   </a>
                 </li>
                 <li>
                   <a href="mailto:vitor@example.com" className="text-muted-foreground hover:text-primary transition-colors flex items-center">
                     <Mail size={16} className="mr-2" />
-                    vitor@example.com
+                    vck987123@gmail.com
                   </a>
                 </li>
                 <li>
-                  <a href="https://linkedin.com/in/vitorkunicki" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors flex items-center">
+                  <a href="https://www.linkedin.com/in/vitorcamargokunicki/" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors flex items-center">
                     <Linkedin size={16} className="mr-2" />
                     LinkedIn
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/vitorkunicki" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors flex items-center">
+                  <a href="https://github.com/vitto2099" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors flex items-center">
                     <Github size={16} className="mr-2" />
                     GitHub
                   </a>
