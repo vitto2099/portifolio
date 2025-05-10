@@ -16,7 +16,7 @@ const projects = [
     name: "Loja Virtual 16-Bits",
     description: "E-commerce de Jogos geek e retro, com sistema completo de carrinho, pagamentos, ce painel de jogos favoritos.",
     technologies: ["React", "Node.js", "JavaSript", "Css"],
-    image: "https://via.placeholder.com/600x400?text=Loja+Virtual+16-Bits",
+    image: "/public/images/LojaDeGamesRetro.png",
     github: "https://github.com/vitorkunicki/ecommerce-16bits",
     live: "#"
   },
@@ -24,7 +24,7 @@ const projects = [
     name: "Calculadora Trabalhista",
     description: "Aplicativo de Calculador de Rescição trabalhista feita para treinar typescript e React",
     technologies: ["Vue.js", "Css", "Typescript"],
-    image: "https://via.placeholder.com/600x400?text=Gestão+Municipal",
+    image: "/public/images/calculadoraCLT.png",
     github: "https://github.com/vitorkunicki/gestao-municipal",
     live: "#"
   },
@@ -32,7 +32,7 @@ const projects = [
     name: "Jogo De Rpg por Texto",
     description: "Um game de RPG de Texto feito com base em um trabalho de faculdade feito em Java. Refiz ele em Javascript para demonstrar a minha ideia ao meu grupo.",
     technologies: ["HTML", "CSS", "JavaScript"],
-    image: "https://via.placeholder.com/600x400?text=App+Clima+Tempo",
+    image: "/public/images/rpggame.png",
     github: "https://github.com/vitorkunicki/clima-app",
     live: "#"
   },
@@ -40,15 +40,15 @@ const projects = [
     name: "Xadrez Online",
     description: "Um Jogos de Xadrez Utilizando Javascript que fiz para treinar css e implementar site via Git-Hub pages.",
     technologies: ["React", "Node.js", "JavaSript", "Css"],
-    image: "https://via.placeholder.com/600x400?text=Task+Manager",
+    image: "/public/images/Xadrez.png",
     github: "https://github.com/vitorkunicki/task-manager",
     live: "#"
   },
   {
-    name: "To do List Git",
-    description: "Meu primeiro projeto de javascript em que fiz uma todo list com visual baseado no proprio Git Hub.",
+    name: "Gerador De bio Geek",
+    description: "Um dos Meus Primeiros projetos que fiz um gerador de bio geek com Frases Famosas.",
     technologies: ["React", "Node.js", "JavaSript", "Css"],
-    image: "https://via.placeholder.com/600x400?text=Sistema+ERP",
+    image: "/public/images/geradorbio.png",
     github: "https://github.com/vitorkunicki/erp-system",
     live: "#"
   }
