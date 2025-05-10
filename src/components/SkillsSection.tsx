@@ -4,41 +4,37 @@ import { Card, CardContent } from "@/components/ui/card";
 import { HoverCard, HoverCardTrigger, HoverCardContent } from "@/components/ui/hover-card";
 
 const frontendSkills = [
-  { name: "JavaScript", level: 90 },
-  { name: "TypeScript", level: 85 },
+  { name: "JavaScript", level: 100 },
+  { name: "TypeScript", level: 95 },
   { name: "React", level: 90 },
-  { name: "Vue.js", level: 75 },
-  { name: "HTML/CSS", level: 95 },
-  { name: "Tailwind CSS", level: 85 },
-  { name: "Flutter", level: 70 },
+  { name: "Vue.js", level: 60 },
+  { name: "HTML/CSS", level: 100 },
+  { name: "Tailwind CSS", level: 70 },
+  { name: "Flutter", level: 60 },
 ];
 
 const backendSkills = [
-  { name: "Node.js", level: 85 },
-  { name: "Python", level: 75 },
-  { name: "Java (Spring Boot)", level: 70 },
-  { name: "PHP (Laravel)", level: 80 },
-  { name: "GraphQL", level: 65 },
-  { name: "REST API", level: 90 },
+  { name: "Node.js", level: 100 },
+  { name: "Python", level: 80 },
+  { name: "Java (Spring Boot)", level: 80 },
+  { name: "PHP (Laravel)", level: 40 },
+    { name: "REST API", level: 90 },
 ];
 
 const databaseSkills = [
-  { name: "MySQL", level: 85 },
-  { name: "PostgreSQL", level: 80 },
-  { name: "MongoDB", level: 75 },
-  { name: "Firebase", level: 85 },
-  { name: "Redis", level: 60 },
-];
+  { name: "MySQL", level: 80 },
+  { name: "PostgreSQL", level: 50 },
+  { name: "MongoDB", level: 50 },
+  { name: "Firebase", level: 70 },
+  ];
 
 const otherSkills = [
   { name: "Git", level: 90 },
+  { name: "Git Hub", level: 90 },
   { name: "Docker", level: 75 },
-  { name: "CI/CD", level: 70 },
   { name: "Azure", level: 65 },
-  { name: "Metodologias Ágeis", level: 85 },
-  { name: "Business Intelligence", level: 70 },
-  { name: "Photoshop/Illustrator", level: 75 },
-];
+  { name: "Power BI", level: 85 },
+  ];
 
 const SkillBar = ({ skill, level }: { skill: string; level: number }) => {
   return (
