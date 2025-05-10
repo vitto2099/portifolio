@@ -8,7 +8,7 @@ const projects = [
     name: "Tetris Clone",
     description: "Recriação do game Classico Tetris com foco em reproduzir algo parecido com o gameboy.",
     technologies: ["Javascript", "CSS"],
-    image: "/public/images/tetrisClone.png",
+    image: "/public/images/tetris.png",
     github: "https://github.com/vitorkunicki/netflix-clone",
     live: "#"
   },
