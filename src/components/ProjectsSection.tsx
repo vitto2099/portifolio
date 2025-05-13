@@ -8,7 +8,7 @@ const projects = [
     name: "Tetris Clone",
     description: "Recriação do game Classico Tetris com foco em reproduzir algo parecido com o gameboy.",
     technologies: ["Javascript", "CSS"],
-    image: "https://drive.google.com/file/d/1H8GVHlRxmaCFgt03Sk50Z_JSYBa3dcV6/view?usp=drive_link",
+    image: "/images/tetris.jpg",
     github: "https://github.com/vitto2099/CloneTetrisRetro.git",
     live: "#"
   },
@@ -40,7 +40,7 @@ const projects = [
     name: "Xadrez Online",
     description: "Um Jogos de Xadrez Utilizando Javascript que fiz para treinar css e implementar site via Git-Hub pages.",
     technologies: ["Node.js", "JavaSript", "Css"],
-    image: <source />,
+    image: "/images/Xadrez.jpg",
     github: "https://github.com/vitto2099/Xadrez.git",
     live: "#"
   },
