@@ -9,7 +9,7 @@ const projects = [
     description: "Recriação do game Classico Tetris com foco em reproduzir algo parecido com o gameboy.",
     technologies: ["Javascript", "CSS"],
     image: "/public/images/tetris.png",
-    github: "https://github.com/vitorkunicki/netflix-clone",
+    github: "https://github.com/vitto2099/CloneTetrisRetro.git",
     live: "#"
   },
   {
@@ -17,7 +17,7 @@ const projects = [
     description: "E-commerce de Jogos geek e retro, com sistema completo de carrinho, pagamentos, ce painel de jogos favoritos.",
     technologies: ["React", "Node.js", "JavaSript", "Css"],
     image: "/public/images/LojaDeGamesRetro.png",
-    github: "https://github.com/vitorkunicki/ecommerce-16bits",
+    github: "https://github.com/vitto2099/lojaretro.git",
     live: "#"
   },
   {
@@ -25,7 +25,7 @@ const projects = [
     description: "Aplicativo de Calculador de Rescição trabalhista feita para treinar typescript e React",
     technologies: ["Vue.js", "Css", "Typescript"],
     image: "/public/images/calculadoraCLT.png",
-    github: "https://github.com/vitorkunicki/gestao-municipal",
+    github: "https://github.com/vitto2099/CalculadoraCLT.git",
     live: "#"
   },
   {
@@ -33,23 +33,23 @@ const projects = [
     description: "Um game de RPG de Texto feito com base em um trabalho de faculdade feito em Java. Refiz ele em Javascript para demonstrar a minha ideia ao meu grupo.",
     technologies: ["HTML", "CSS", "JavaScript"],
     image: "/public/images/rpggame.png",
-    github: "https://github.com/vitorkunicki/clima-app",
+    github: "https://github.com/vitto2099/Jogo-De-Escolhas.git",
     live: "#"
   },
   {
     name: "Xadrez Online",
     description: "Um Jogos de Xadrez Utilizando Javascript que fiz para treinar css e implementar site via Git-Hub pages.",
-    technologies: ["React", "Node.js", "JavaSript", "Css"],
+    technologies: ["Node.js", "JavaSript", "Css"],
     image: "/public/images/Xadrez.png",
-    github: "https://github.com/vitorkunicki/task-manager",
+    github: "https://github.com/vitto2099/Xadrez.git",
     live: "#"
   },
   {
-    name: "Gerador De bio Geek",
-    description: "Um dos Meus Primeiros projetos que fiz um gerador de bio geek com Frases Famosas.",
-    technologies: ["React", "Node.js", "JavaSript", "Css"],
-    image: "/public/images/geradorbio.png",
-    github: "https://github.com/vitorkunicki/erp-system",
+    name: "Codificador Morse 98",
+    description: "Projeto simples em que criei um codificador de Codigo Morse .",
+    technologies: ["JavaSript", "Css"],
+    image: "/public/images/morse.png",
+    github: "https://github.com/vitto2099/codificadormorse.git",
     live: "#"
   }
 ];
