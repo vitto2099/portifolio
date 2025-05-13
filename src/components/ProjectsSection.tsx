@@ -8,7 +8,7 @@ const projects = [
     name: "Tetris Clone",
     description: "Recriação do game Classico Tetris com foco em reproduzir algo parecido com o gameboy.",
     technologies: ["Javascript", "CSS"],
-    image: "/public/images/tetris.png",
+    image: "/public/images/tetris.jpg",
     github: "https://github.com/vitto2099/CloneTetrisRetro.git",
     live: "#"
   },
@@ -16,7 +16,7 @@ const projects = [
     name: "Loja Virtual 16-Bits",
     description: "E-commerce de Jogos geek e retro, com sistema completo de carrinho, pagamentos, ce painel de jogos favoritos.",
     technologies: ["React", "Node.js", "JavaSript", "Css"],
-    image: "/public/images/LojaDeGamesRetro.png",
+    image: "/public/images/LojaDeGamesRetro.jpg",
     github: "https://github.com/vitto2099/lojaretro.git",
     live: "#"
   },
@@ -24,7 +24,7 @@ const projects = [
     name: "Calculadora Trabalhista",
     description: "Aplicativo de Calculador de Rescição trabalhista feita para treinar typescript e React",
     technologies: ["Vue.js", "Css", "Typescript"],
-    image: "/public/images/calculadoraCLT.png",
+    image: "/public/images/calculadoraCLT.jpg",
     github: "https://github.com/vitto2099/CalculadoraCLT.git",
     live: "#"
   },
@@ -32,7 +32,7 @@ const projects = [
     name: "Jogo De Rpg por Texto",
     description: "Um game de RPG de Texto feito com base em um trabalho de faculdade feito em Java. Refiz ele em Javascript para demonstrar a minha ideia ao meu grupo.",
     technologies: ["HTML", "CSS", "JavaScript"],
-    image: "/public/images/rpggame.png",
+    image: "/public/images/rpggame.jpg",
     github: "https://github.com/vitto2099/Jogo-De-Escolhas.git",
     live: "#"
   },
@@ -40,7 +40,7 @@ const projects = [
     name: "Xadrez Online",
     description: "Um Jogos de Xadrez Utilizando Javascript que fiz para treinar css e implementar site via Git-Hub pages.",
     technologies: ["Node.js", "JavaSript", "Css"],
-    image: "/public/images/Xadrez.png",
+    image: "/public/images/Xadrez.jpg",
     github: "https://github.com/vitto2099/Xadrez.git",
     live: "#"
   },
@@ -48,7 +48,7 @@ const projects = [
     name: "Codificador Morse 98",
     description: "Projeto simples em que criei um codificador de Codigo Morse .",
     technologies: ["JavaSript", "Css"],
-    image: "/public/images/morse.png",
+    image: "/public/images/morse.jpg",
     github: "https://github.com/vitto2099/codificadormorse.git",
     live: "#"
   }
